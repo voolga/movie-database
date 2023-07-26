@@ -1,6 +1,6 @@
 [# movieDataBase]
 
-(https://voolga.github.io/movieDataBase/)https://voolga.github.io/movieDataBase/
+https://voolga.github.io/movieDataBase/
 
 Implemented functionality:
 
