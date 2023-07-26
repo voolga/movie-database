@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const movieDB = {
         movies: [
-            "Логан",
-            "Лига справедливости",
-            "Ла-ла лэнд",
-            "Одержимость",
-            "Скотт Пилигрим против..."
+            "ЛОГАН",
+            "ЛИГА СПРАВЕДЛИВОСТИ",
+            "ЛА-ЛА ЛЕНД",
+            "ОДЕРЖИМОСТЬ",
+            "ИНТЕРСТЕЛЛАР"
         ]
     };
 
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     addForm.addEventListener('submit', (event) => {
         event.preventDefault();
-        let newFilm = addInput.value;
+        let newFilm = addInput.value.toUpperCase();
         const favorite = checkbox.checked;
 
 
